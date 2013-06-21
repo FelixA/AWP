@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Felix-PC" name="test.ui.wizard.MailboxTestSelenium" tests="1" time="13.949" timestamp="2013-06-20T12:37:55">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="hamcrest.jar" value="WebContent/WEB-INF/lib/hamcrest-core-1.1.jar" />
+    <property name="commons-logging.jar" value="WebContent/WEB-INF/lib/commons-logging-1.1.1.jar" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/D:/AWP/eclipse-jee-juno-SR2-win32/eclipse/plugins/org.eclipse.pde.build_3.8.2.v20121114-140810/templates/" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="tomcat-manager-password" value="bpmn" />
+    <property name="dist" value="target/dist" />
+    <property name="os.name" value="Windows 8" />
+    <property name="tomcat-manager-url-vserver" value="http://185.16.61.87:8080/manager/text" />
+    <property name="sun.boot.class.path" value="D:\Java\jdk\jre\lib\resources.jar;D:\Java\jdk\jre\lib\rt.jar;D:\Java\jdk\jre\lib\sunrsasign.jar;D:\Java\jdk\jre\lib\jsse.jar;D:\Java\jdk\jre\lib\jce.jar;D:\Java\jdk\jre\lib\charsets.jar;D:\Java\jdk\jre\lib\jfr.jar;D:\Java\jdk\jre\classes" />
+    <property name="bpmn2.jar" value="WebContent/WEB-INF/lib/org.eclipse.bpmn2-0.7.0.003.jar" />
+    <property name="facesImpl.jar" value="WebContent/WEB-INF/externalJars/myfaces-impl-2.1.10.jar" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="D:\AWP\eclipse-jee-juno-SR2-win32\eclipse\plugins\org.apache.ant_1.8.3.v201301120609" />
+    <property name="build-info.DSTAMP" value="20130620" />
+    <property name="java.runtime.version" value="1.7.0_21-b11" />
+    <property name="checkstyle.jar" value="WebContent/WEB-INF/lib/checkstyle-5.6.jar" />
+    <property name="cobertura.dir" value="WebContent/WEB-INF/lib/" />
+    <property name="user.name" value="Felix" />
+    <property name="tomcat-manager-username" value="bpmn" />
+    <property name="user.language" value="de" />
+    <property name="sun.boot.library.path" value="D:\Java\jdk\jre\bin" />
+    <property name="ant.project.default-target" value="reDeployRemote" />
+    <property name="report.findbugs.dir" value="reports/" />
+    <property name="junit4.jar" value="WebContent/WEB-INF/lib/junit-4.11.jar" />
+    <property name="ant.project.name" value="planspielBPMNTomEE" />
+    <property name="guava.jar" value="WebContent/WEB-INF/lib/guava-r08.jar" />
+    <property name="java.version" value="1.7.0_21" />
+    <property name="classes" value="target/classes" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="tomcat-manager-url-local" value="http://localhost:8080/manager/text" />
+    <property name="build.coverage.dir" value="D:\AWP\planspielBPMNTomEE\reports" />
+    <property name="java.endorsed.dirs" value="D:\Java\jdk\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="source-directory" value="src/main" />
+    <property name="user.country" value="DE" />
+    <property name="build-info.current-date" value="20-June-2013" />
+    <property name="java.home" value="D:\Java\jdk\jre" />
+    <property name="java.vm.info" value="mixed mode, sharing" />
+    <property name="ant.file" value="D:\AWP\planspielBPMNTomEE\build.xml" />
+    <property name="os.version" value="6.2" />
+    <property name="build-info.TODAY" value="June 20 2013" />
+    <property name="test.reports" value="reports" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="23.21-b01" />
+    <property name="servlet.jar" value="WebContent/WEB-INF/lib/servlet-api.jar" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="D:\AWP\eclipse-jee-juno-SR2-win32\eclipse\plugins\org.apache.ant_1.8.3.v201301120609\lib" />
+    <property name="build-info.year-month-day" value="2013-06-20" />
+    <property name="emf.ecore.jar" value="WebContent/WEB-INF/lib/org.eclipse.emf.ecore-2.7.0.jar" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="web-xml-file" value="WebContent/WEB-INF/web.xml" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/D:/AWP/eclipse-jee-juno-SR2-win32/eclipse/plugins/org.eclipse.pde.build_3.8.2.v20121114-140810/scripts/" />
+    <property name="facesCore.jar" value="WebContent/WEB-INF/externalJars/myfaces-api-2.1.10.jar" />
+    <property name="user.home" value="C:\Users\Felix" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="cob.dir" value="D:\AWP\planspielBPMNTomEE\src" />
+    <property name="java.library.path" value="D:\Java\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Java/jre/bin/client;D:/Java/jre/bin;D:/Java/jre/lib/i386;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Java\jdk\bin;.;;.;;D:\AWP\eclipse-jee-juno-SR2-win32\eclipse;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="build-info.TSTAMP" value="1437" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="bin.dir" value="D:\AWP\planspielBPMNTomEE\target\classes" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="war-file-name" value="planspiel.war" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.3 compiled on February 26 2012" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.ui.wizard.MailboxTestSelenium filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\AWP\planspielBPMNTomEE\reports\JUnit\TEST-test.ui.wizard.MailboxTestSelenium.xml crashfile=D:\AWP\planspielBPMNTomEE\junitvmwatcher1649240219748183669.properties propsfile=D:\AWP\planspielBPMNTomEE\junit1127369658253527493.properties" />
+    <property name="java.class.path" value="D:\AWP\planspielBPMNTomEE\WebContent\WEB-INF\lib\hamcrest-core-1.1.jar;D:\AWP\planspielBPMNTomEE\WebContent\WEB-INF\lib\junit-4.11.jar;D:\AWP\planspielBPMNTomEE\target\classes;D:\AWP\planspielBPMNTomEE\WebContent\WEB-INF\lib\org.eclipse.bpmn2-0.7.0.003.jar;D:\AWP\planspielBPMNTomEE\WebContent\WEB-INF\lib\org.eclipse.emf.ecore-2.7.0.jar;D:\AWP\planspielBPMNTomEE\WebContent\WEB-INF\lib\org.eclipse.emf.ecore.xmi-2.7.0-v20110520-1406.jar;D:\AWP\planspielBPMNTomEE\WebContent\WEB-INF\lib\org.eclipse.emf.common-2.7.0-v20110605-0747.jar;D:\AWP\planspielBPMNTomEE\WebContent\WEB-INF\lib\servlet-api.jar;D:\AWP\planspielBPMNTomEE\WebContent\WEB-INF\externalJars\myfaces-impl-2.1.10.jar;D:\AWP\planspielBPMNTomEE\WebContent\WEB-INF\externalJars\myfaces-api-2.1.10.jar;D:\AWP\planspielBPMNTomEE\WebContent\WEB-INF\lib\log4j-1.2.17.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\apache-mime4j-0.6.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\bsh-1.3.0.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\cglib-nodep-2.1_3.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\commons-collections-3.2.1.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\commons-exec-1.1.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\commons-io-2.2.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\commons-jxpath-1.3.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\commons-lang3-3.1.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\commons-logging-1.1.1.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\cssparser-0.9.9.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\guava-14.0.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\hamcrest-core-1.3.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\hamcrest-library-1.3.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\htmlunit-2.12.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\htmlunit-core-js-2.12.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\httpclient-4.2.1.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\httpcore-4.2.1.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\httpmime-4.2.1.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\ini4j-0.5.2.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\jcommander-1.29.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\jetty-websocket-8.1.8.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\jna-3.4.0.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\jna-platform-3.4.0.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\json-20080701.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\junit-dep-4.11.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\nekohtml-1.9.17.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\netty-3.5.7.Final.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\operadriver-1.3.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\phantomjsdriver-1.0.3.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\protobuf-java-2.4.1.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\sac-1.3.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\serializer-2.7.1.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\testng-6.8.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\xalan-2.7.1.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\xml-apis-1.4.01.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\selenium-java-2.33.0.jar;D:\AWP\planspielBPMNTomEE\Webcontent\WEB-INF\lib\selenium-java-2.33.0-srcs.jar;D:\AWP\eclipse-jee-juno-SR2-win32\eclipse\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-launcher.jar;D:\AWP\eclipse-jee-juno-SR2-win32\eclipse\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant.jar;D:\AWP\eclipse-jee-juno-SR2-win32\eclipse\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-junit.jar;D:\AWP\eclipse-jee-juno-SR2-win32\eclipse\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant-junit4.jar" />
+    <property name="classes-directory" value="build/classes" />
+    <property name="build-info.current-time" value="02:37:20 PM CEST" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="selenium.jar" value="WebContent/WEB-INF/lib/selenium-server-2.32.0.jar" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="pmd.jar" value="WebContent/WEB-INF/lib/pmd-5.0.4.jar" />
+    <property name="log4j.jar" value="WebContent/WEB-INF/lib/log4j-1.2.17.jar" />
+    <property name="java.io.tmpdir" value="C:\Users\Felix\AppData\Local\Temp\" />
+    <property name="eclipse.pdebuild.home" value="/D:/AWP/eclipse-jee-juno-SR2-win32/eclipse/plugins/org.eclipse.pde.build_3.8.2.v20121114-140810/./" />
+    <property name="ant.file.planspielBPMNTomEE" value="D:\AWP\planspielBPMNTomEE\build.xml" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="emf.ecore.xmi.jar" value="WebContent/WEB-INF/lib/org.eclipse.emf.ecore.xmi-2.7.0-v20110520-1406.jar" />
+    <property name="emf.ecore.common.jar" value="WebContent/WEB-INF/lib/org.eclipse.emf.common-2.7.0-v20110605-0747.jar" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="os.arch" value="x86" />
+    <property name="findbugs.home.dir" value="WebContent/WEB-INF/lib/" />
+    <property name="java.ext.dirs" value="D:\Java\jdk\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="D:\AWP\planspielBPMNTomEE" />
+    <property name="doc-directory" value="WebContent/doc" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="project-name" value="planspielBPMN" />
+    <property name="basedir" value="D:\AWP\planspielBPMNTomEE" />
+    <property name="build-directory" value="build" />
+    <property name="web-directory" value="WebContent" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="tomcat-manager-url" value="http://bpmnServer:8080/manager/text" />
+    <property name="ant.core.lib" value="D:\AWP\eclipse-jee-juno-SR2-win32\eclipse\plugins\org.apache.ant_1.8.3.v201301120609\lib\ant.jar" />
+    <property name="catalina-ant-dir" value="WebContent/WEB-INF/lib" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="commons-beanutils-core.jar" value="WebContent/WEB-INF/lib/commons-beanutils-core-1.8.3.jar" />
+    <property name="antlr.jar" value="WebContent/WEB-INF/lib/antlr-2.7.6.jar" />
+    <property name="ant.file.type.planspielBPMNTomEE" value="file" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="src.dir" value="D:\AWP\planspielBPMNTomEE\src\main" />
+    <property name="ant.project.invoked-targets" value="Selenium" />
+  </properties>
+  <testcase classname="test.ui.wizard.MailboxTestSelenium" name="test" time="2.273" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>
